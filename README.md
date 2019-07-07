@@ -4,7 +4,7 @@
 Parameter option:
 >   * Thread size M1 ~ M10
 >   * Length of the Thread\
-[Source Code](https://github.com/JCTGY/onshape_CAD_FeatureScript/blob/master/thread.fs)\
+[Source Code](https://github.com/JCTGY/Thread_FeatureScript/blob/master/thread.fs)\
 [Onshape Document](https://cad.onshape.com/documents/fa2c2ec63e032fe923d391dc/w/6056dc84910a12dddbff2ca8/e/0c6dea32aea85828cc3f2808)
 
 Thread size from [FULLER: Basic Metric Thread Chart](https://www.fullerfasteners.com/tech/basic-metric-thread-chart-m1-m100-2/)\
