@@ -17,12 +17,12 @@ In the main function, can change the var pitch and var cutter_size\
 Note that the default is in millimeter
 ```
         var cSys is CoordSystem = coordSystem(othreadAxis.origin, xDirection, zDirection);
-        var pitch is ValueWithUnits = pitchSize(context, definition);
+   -->> var pitch is ValueWithUnits = pitchSize(context, definition);
         
         createCylinder(context, id, definition, othreadAxis, threadRad);
         createHelixCutter(context, id, definition, xDirection, zDirection, othreadAxis, threadRad, pitch);
         var cutPlane is array = [];
-        var cutterSize = getVariable(context, "cutterSize");
+   -->> var cutterSize = getVariable(context, "cutterSize");
         cutPlane = append(cutPlane, qCreatedBy(id + "helix1", EntityType.EDGE));
  ```
 ![Thread](https://user-images.githubusercontent.com/46547632/60761322-a9beb980-9ffa-11e9-9629-4548d5cfa08b.gif)
